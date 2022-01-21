@@ -514,7 +514,7 @@ This is the Home Template for all the adapters from Swissglider
     ### **WORK IN PROGRESS**
 -->
 
-### **WORK IN PROGRESS**
+### 0.0.2-1 (2022-01-21)
 
 -   (Swissglider) initial release
 
