@@ -1,0 +1,72 @@
+{
+    "common": {
+        "name": "thehome_template",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "The Home Template",
+        "titleLang": {
+            "en": "The Home Template",
+            "de": "Die Home-Vorlage",
+            "ru": "Домашний шаблон",
+            "pt": "O modelo inicial",
+            "nl": "De thuissjabloon",
+            "fr": "Le modèle d'accueil",
+            "it": "Il modello di casa",
+            "es": "La plantilla de inicio",
+            "pl": "Szablon domu",
+            "zh-cn": "主页模板"
+        },
+        "desc": {
+            "en": "This is the Home Template for all the adapters from Swissglider",
+            "de": "Dies ist das Home Template für alle Adapter von Swissglider",
+            "ru": "Это шаблон Home для всех адаптеров от Swissglider.",
+            "pt": "Este é o Home Template para todos os adaptadores da Swissglider",
+            "nl": "Dit is de Home-sjabloon voor alle adapters van Swissglider",
+            "fr": "Ceci est le Home Template pour tous les adaptateurs de Swissglider",
+            "it": "Questo è il modello Home per tutti gli adattatori di Swissglider",
+            "es": "Esta es la plantilla de inicio para todos los adaptadores de Swissglider",
+            "pl": "To jest szablon domowy dla wszystkich adapterów Swissglider",
+            "zh-cn": "这是 Swissglider 所有适配器的主页模板"
+        },
+        "authors": ["Swissglider <npm@mailschweiz.com>"],
+        "keywords": ["template", "theHome", "Swissglider", "test", "not productive"],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "thehome_template.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/swissglider/ioBroker.thehome_template/main/admin/thehome_template.png",
+        "readme": "https://github.com/swissglider/ioBroker.thehome_template/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
